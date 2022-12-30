@@ -4,47 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="app.js"></script>
-    <title>document </title>
-    <link rel="stylesheet" href="style.css"/>
-
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./app.js"></script>
+    <title>Calculator</title>
 </head>
 <body>
-   <div class="main">
-    <div class="inner">
-        <div class="output-clear">
-            <input type="text" class="texthappy">
-            <button class="hooo">CLEAR</button>
-         </div>
-         <div>
-            <button class="button" id="7">7</button>
-            <button class="button" id="8">8</button>
-            <button class="button" id="9">9</button>
-            <button class="button" id="/">/</button>
 
-         </div>
-         <div>
-            <button class="button" id="4">4</button>
-            <button class="button" id="5">5</button>
-            <button class="button" id="6">6</button>
-            <button class="button" id="*">*</button>
-
-         </div>
-        <div>
-            <button class="button" id="1">1</button>
-            <button class="button" id="2">2</button>
-            <button class="button" id="3">3</button>
-            <button class="button" id="sub">-</button>
+    <div class="main-outer-div">
+        <div class="inner">
+            <div class="output-clear">
+                <input type="text" class="textfield" id="textoutput">
+            </div>
+            <div class="buttons-div">
+                <div class="rows">
+                    <button class="button" id="openbracket">(</button>
+                    <button class="button" id="closebracket">)</button>
+                    <button class="button" id="onechar">C</button>
+                    <button class="button" id="clear">AC</button>
+                </div>
+                <div class="rows">
+                    <button class="button" id="seven">7</button>
+                    <button class="button" id="eight">8</button>
+                    <button class="button" id="nine">9</button>
+                    <button class="button" id="division">/</button>
+                </div>
+                <div class="rows">
+                    <button class="button" id="four">4</button>
+                    <button class="button" id="five">5</button>
+                    <button class="button" id="six">6</button>
+                    <button class="button" id="multiply">*</button>
+                </div>
+                <div class="rows">
+                    <button class="button" id="one">1</button>
+                    <button class="button" id="two">2</button>
+                    <button class="button" id="three">3</button>
+                    <button class="button" id="minus">-</button>
+                </div>
+                <div class="rows">
+                    <button class="button" id="dot">.</button>
+                    <button class="button" id="singlezero">0</button>
+                    <button class="button" id="equalto">=</button>
+                    <button class="button" id="addition">+</button>
+                </div>
+            </div>
         </div>
-        <div>
-            <button class="button" id="dot">.</button>
-            <button class="button" id="0">0</button>
-            <button class="button" id="equal">=</button>
-            <button class="button" id="add">+</button>
-        </div>
-    </div>
-
-   </div>
-    
+    </div>    
 </body>
 </html>
